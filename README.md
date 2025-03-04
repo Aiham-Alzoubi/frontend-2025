@@ -1,2 +1,2 @@
 # frontend-2025
- laern html, css, js
+laern html, css, js
