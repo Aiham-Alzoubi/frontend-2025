@@ -1,2 +1,2 @@
 # frontend-2025
- laern html, css, js
+ this repo to laern about html,css and js
