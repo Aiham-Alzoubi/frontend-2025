@@ -9,19 +9,40 @@
     <body>
         <div id="container">
             <div id="nav">
+               <img class="Visual" width="190px" height="150px" src="data:image/png;base64,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">
                <p>ths is a nav </p>
+               <button >Submit</button>
+               <button >Reset</button>
+               <button >Remove</button>
+               <button >Send</button>
             </div>
             <div id="leftMenu">
                 <p>this is a leftMenu</p>
+                <button >Submit</button>
+                <button >Reset</button>
+                <button >Remove</button>
+                <button >Send</button>
             </div>
             <div id="main">
                 <p>this is a main</p>
+                <button >Submit</button>
+                <button >Reset</button>
+                <button >Remove</button>
+                <button >Send</button>
             </div>
             <div id="rightMenu">
                 <p>this is a rightMenu</p>
+                <button >Submit</button>
+                <button >Reset</button>
+                <button >Remove</button>
+                <button >Send</button>
             </div>
             <div id="footer">
                 <p>this is a footer</p>
+                <button >Submit</button>
+                <button >Reset</button>
+                <button >Remove</button>
+                <button >Send</button>
             </div>
            
     </body>

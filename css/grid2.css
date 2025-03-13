@@ -1,0 +1,39 @@
+#nav{
+    background-color: aqua;
+    text-align: center;
+    grid-area: nav;
+    height: 300px;
+    
+}
+#leftMenu{
+    background-color: yellow;
+    grid-area:leftMenu; 
+    height:800px;
+}
+#main{
+    background-color: chartreuse;
+    grid-area: main;
+    height: 600px;
+}
+#rightMenu{
+    background-color: steelblue;
+    grid-area: rightMenu;
+}
+#footer{
+    background-color: seagreen;
+    grid-area: foter;
+    height: 200px;
+}
+#container{
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'leftMenu main main rightMenu'
+    'leftMenu foter foter foter';
+    text-align:center;
+}
+button{
+    border-radius: 10px;
+    background-color: crimson;
+    
+}
