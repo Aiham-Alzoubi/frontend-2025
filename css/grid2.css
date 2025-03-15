@@ -1,39 +1,82 @@
+#nav{    
+    background-color: dimgray;
+    grid-area: nav;    
+    height: 180px;
+    margin: 10px;
+}
 #nav{
-    background-color: aqua;
-    text-align: center;
-    grid-area: nav;
-    height: 300px;
-    
+    text-align: start;
+    display: flex;
+    align-items: center;
 }
 #leftMenu{
-    background-color: yellow;
     grid-area:leftMenu; 
-    height:800px;
+    height: 800px;   
+    
 }
+#leftMenu>ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+#leftMenu>ul>li{
+    background-color: burlywood;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 40px;
+}
+#leftMenu>ul>li>:hover{
+    background-color: lightcoral;
+}
+
 #main{
-    background-color: chartreuse;
     grid-area: main;
     height: 600px;
 }
+#main>ul{
+    list-style: none;
+}
 #rightMenu{
-    background-color: steelblue;
     grid-area: rightMenu;
 }
+
+#rightMenu>ul{
+    list-style: none;
+}
+#rightMenu>ul>li{
+    background-color: burlywood;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 40px;
+}
 #footer{
-    background-color: seagreen;
+    background-color: dimgray;
     grid-area: foter;
     height: 200px;
+
 }
 #container{
     display: grid;
     grid-template-areas: 
     'nav nav nav nav'
     'leftMenu main main rightMenu'
-    'leftMenu foter foter foter';
+    'foter foter foter foter';
     text-align:center;
-}
-button{
-    border-radius: 10px;
-    background-color: crimson;
     
+}
+.logo{  
+    width: 160px;
+    border-radius: 50px;
+}
+.navlist{
+    list-style: none;
+    border-radius: 50px;
+}
+.navlist{
+    margin-left: 180px;
+    background-color: blue;
+    padding: 15px;
+    /* border-radius: ; */
+
 }
