@@ -6,8 +6,8 @@
 }
 #nav{
     text-align: start;
-    display: flex;
     align-items: center;
+    display: flex; 
 }
 #leftMenu{
     grid-area:leftMenu; 
@@ -51,6 +51,8 @@
     border-radius: 40px;
 }
 #footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-color: dimgray;
     grid-area: foter;
     height: 200px;
