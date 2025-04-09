@@ -1,5 +1,6 @@
 #nav{    
     background-color: dimgray;
+    border-radius: 20px;
     grid-area: nav;    
     height: 180px;
     margin: 10px;
