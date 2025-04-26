@@ -1,0 +1,16 @@
+h1{
+    background-image: linear-gradient(rgb(47, 0, 255),rgb(236, 123, 24),rgb(220, 123, 250));
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x:center ;
+    transition: background-size 500ms ease-in-out;
+    padding: 20px;
+    font-size: 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1:hover{
+    background-size: 100% 100%;
+    cursor: pointer;
+}
