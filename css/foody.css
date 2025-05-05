@@ -88,6 +88,7 @@
     font-size: 20px;
     border: none;
 }
+
 .orderButton{
     background-color: #39DB4A;
     border-radius: 50px;
@@ -153,6 +154,16 @@
     height: 70vh;
     
 }
+
+
+
+
+
+
+
+
+
+
 .textmain1{
     width: 400px;
     text-align: center;
@@ -170,6 +181,16 @@
     letter-spacing: 3.5px;
     text-transform: uppercase; 
 }
+
+
+
+
+
+
+
+
+
+
 #Popular{
     font-size: 20px;
     letter-spacing: 3.5px;
@@ -349,4 +370,63 @@
 /*  */
 #testimonials_box{
     height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+/*  الجزء الخامس*/
+
+#testimonials{
+    text-align: center;
+    position: relative;
+    /* vertical-align: top; */
+
+}
+.Testimonals{
+    position: relative;
+    font-size: 20px;
+    color: #ff6868;
+    margin-left: 20em;
+
+}
+.Customers{
+    shape-outside: circle(50%);
+    float: right;
+    width: 350px;
+    margin-left: 20em;
+    
+}
+
+.Text{
+    margin-left: 30em;
+    font-size: 20px;
+}
+
+.boxscreen{
+    background-color:#39DB4A;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    /* padding: 30px; */
+    margin-left: 15%;
+    margin-top: 20%;
+    display: flex;
+    
+}
+.imagebox{
+    position: relative;
+    position: absolute;
+    align-items: flex-start;
+    margin-bottom:0;
+    margin: 0px;
+    margin-bottom: 60px; 
+    
 }
