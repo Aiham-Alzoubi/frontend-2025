@@ -7,4 +7,3 @@ close.addEventListener("click", () => {
 open.addEventListener("click", () => {
   menu.style.visibility = "visible";
 });
-// 
