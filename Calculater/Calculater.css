@@ -1,0 +1,10 @@
+
+*{
+    margin: 0;
+}
+.bg-light{
+    background-color: blue;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://media.licdn.com/dms/image/v2/D4D12AQFvveNSQdcXbQ/article-cover_image-shrink_720_1280/B4DZXXebz1HwAI-/0/1743076836386?e=2147483647&v=beta&t=IRvmufYzpCjyiw362cMIJtjLNFRBvKn4Z5P032KDDUE') no-repeat center center;
+}
