@@ -1,0 +1,27 @@
+.navbar-brand{
+    color: blue;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.zz{
+    /* position: absolute; */
+    left: 50px;
+    top: 70px;
+    width: 200px;
+    height: 100px;
+    /* z-index: 1; */
+}
+.zz{
+    transition: width 2s;
+    box-shadow: 10px 10px;
+
+}
+.zz:hover{
+    width: 200px;
+}
+
+.nav-link:hover{
+    color: red;
+}
