@@ -20,7 +20,8 @@ html{
 body{
     width: 100%;
     min-height: 100hv;
-    background: radial-gradient(#111, #071a1a);
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) no-repeat center center; */
+    background: radial-gradient(#111, #071a1a)no-repeat center center;
     color: #fff;
     overflow-x: hidden;
 }
@@ -115,6 +116,9 @@ body{
 
 /* Menu */
 .menu{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
     width: 100%;
     background: linear-gradient(to right, #0e0e0e 70px, #142d2a);
     padding: 12px 0;
@@ -169,9 +173,6 @@ body{
     margin-right: 30px;
     font-size: 18px;
     font-weight: 400;
-}
-.navitem a{
-    
 }
 /* End Menu */ 
 
